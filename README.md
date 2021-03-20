@@ -12,7 +12,7 @@ This header file contains some basic operations you just need to call them in ri
 #include "wininternal.h"
 int main()
 {
-	WININTRNL::INTERNAL Internal;
+  WININTRNL::INTERNAL Internal;
   Internal.RegCreateSet(HKEY_CURRENT_USER, "Test", "Simple", REG_SZ, "Data is simple", 15);
   return 0;
 }
